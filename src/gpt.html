@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="flex">
+        <!-- sidebar -->
+        <div class="h-screen w-[280px] bg-neutral-100 ps-4 pe-1 py-3">
+            <div class="flex items-center justify-between">
+                <button class="transition-all hover:bg-[#ECECEC] p-2 rounded-xl"><img class="h-7" src="../assets/close_side_bar.svg" alt=""></button>
+                <button class="transition-all hover:bg-[#ECECEC] p-2 rounded-xl"><img class="h-7" src="../assets/new chat.svg" alt=""></button>
+            </div>
+            <div class="">
+                <button class=" w-full flex items-center gap-4 mt-3 p-3 rounded-lg transition-all hover:bg-[#ECECEC]">
+                    <img class="h-5" src="../assets/ChatGPT-2.svg" alt="">
+                    <p>TalentGPT</p>
+                </button>   
+            </div>
+            <div class="">
+                <button class=" w-full flex items-center gap-4 p-3 rounded-xl transition-all hover:bg-[#ECECEC]">
+                    <img class="h-5" src="../assets/explore.svg" alt="">
+                    <p>Explore GPTs</p>
+                </button>   
+            </div>
+            <div class="mt-7 px-1">
+                <p class="text-sm font-semibold text-neutral-500">Previous 7 days</p>
+            </div>
+            <div class="mt-1 px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Catchy Veg Burger Names</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Smooth Transitions With Tailwind</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Tailwind CSS Troubleshooting</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Tailwind CSS Warning Fix</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Border Style Issue</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Code Filter Issues</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Creating An array Of Objects</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Javascript Array Syntax</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Catchy Veg Burger Names</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Python main Island</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Creating User Objects</div>
+            <div class="px-2 py-2 rounded-lg transition-all hover:bg-[#e8e5e5]">Border Style Issue</div>
+            
+            <button class="w-64 flex items-center gap-3 fixed bottom-4 hover:bg-[#e8e5e5] px-3 py-2 rounded-xl">
+                <img class="h-7 border border-slate-300 rounded-full p-1" src="../assets/Upgrade.svg" alt="">
+                <div class="text-left">
+                    <p class="">Upgrade Plan</p>
+                    <p class="text-sm text-neutral-400">Get GPT-4, DALL.E and more</p>
+                </div>
+            </button>
+        </div>
+
+        <!-- main content -->
+         <div class=" h-screen w-[calc(100%-300px)]">
+            <div class="w-[800px] mx-auto">
+                <div class="text-center mb-20">
+                    <img class="h-11 mx-auto" src="../assets/ChatGPT-2.svg" alt="">
+                    <h1 class="text-2xl font-semibold">How can I help you today!</h1>
+                </div>
+                <div class="flex gap-3 justify-center mt-3">
+                    <div class=" w-full border px-5 py-4 rounded-2xl transition-all hover:cursor-pointer hover:bg-neutral-100">
+                        <h2 class="font-semibold">Create a morning routine.</h2>
+                        <p class="text-sm text-neutral-500">to boost my productivity</p>
+                    </div>
+                    <div class="w-full border px-5 py-4 rounded-2xl transition-all hover:cursor-pointer hover:bg-neutral-100">
+                        <h2 class="font-semibold">Make up a story.</h2>
+                        <p class="text-sm text-neutral-500">about Sharky,a tooth brushing shark superhero</p>
+                    </div>
+                </div>
+                <div class="flex gap-3 justify-center mt-3">
+                    <div class=" w-full border px-5 py-4 rounded-2xl transition-all hover:cursor-pointer hover:bg-neutral-100">
+                        <h2 class="font-semibold">Write a Python script.</h2>
+                        <p class="text-sm text-neutral-500">to automate sending daily email reports</p>
+                    </div>
+                    <div class="w-full border px-5 py-4 rounded-2xl transition-all hover:cursor-pointer hover:bg-neutral-100">
+                        <h2 class="font-semibold">Plan a mental health day</h2>
+                        <p class="text-sm text-neutral-500">to help me relax</p>
+                    </div>
+                </div>
+                <div class="mt-44">
+                    <input class="border p-5 w-full rounded-full" type="text" placeholder="Message ChatGPT">
+                </div>    
+            </div>
+         </div>
+    </div>
+</body>
+</html>
